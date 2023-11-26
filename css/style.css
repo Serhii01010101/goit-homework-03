@@ -63,7 +63,7 @@ img {
   display: flex;
 }
 .site-item {
-  margin-right: 24px;
+  margin-right: 40px;
 }
 
 .site-item:last-child {
@@ -285,14 +285,19 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-}
-
-.portfolio-item {
-  margin-right: 14px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item:last-child {
   margin-right: 0;
+}
+
+.portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .portfolio-list-header {
   font-weight: 500;
