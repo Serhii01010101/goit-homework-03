@@ -35,6 +35,9 @@ img {
 }
 
 /* header */
+.header-container {
+  display: flex;
+}
 
 .nav-header {
   display: flex;
@@ -58,10 +61,9 @@ img {
 
 .site-nav {
   display: flex;
-  margin-right: 332px;
 }
 .site-item {
-  margin-right: 40px;
+  margin-right: 24px;
 }
 
 .site-item:last-child {
