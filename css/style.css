@@ -41,10 +41,6 @@ img {
   align-items: center;
 }
 
-.container-header {
-  display: flex;
-}
-
 .logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -219,7 +215,7 @@ img {
 /* section 3 */
 .team {
   background-color: #f4f4fd;
-  padding-top: 120px 0;
+  padding: 120px 0;
 }
 
 .team-it {
@@ -271,7 +267,7 @@ img {
 /* section 4 */
 
 .portfolio {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .portfolio-title {
